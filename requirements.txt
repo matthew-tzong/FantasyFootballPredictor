@@ -7,4 +7,4 @@ flask_cors
 pandas
 scikit-learn  
 scipy
-psycopg2
+psycopg2-binary
