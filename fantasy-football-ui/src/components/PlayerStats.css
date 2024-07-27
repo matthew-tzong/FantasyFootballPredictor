@@ -1,0 +1,166 @@
+/*Container for the entire component*/
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Header styling, centering elements */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header-image {
+    height: 150px; 
+    width: auto; 
+    object-fit: cover;
+    position: absolute; 
+    top: 0;
+}
+
+/* Position images to the left and right */
+.header-image.left {
+    left: 0; 
+}
+
+.header-image.right {
+    right: 0; 
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 50px; 
+    text-align: center; 
+    width: 100%;
+    position: relative; 
+    z-index: 1; 
+}
+
+/* Style and Center Buttons */
+.toggle-button {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+/* Buttons for PPR/Non PPR, Add/Remove, and Reset Team */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.button-active {
+    background-color: #007bff;
+}
+
+.button-inactive {
+    background-color: #6c757d;
+}
+
+.button-add {
+    background-color: #28a745;
+}
+
+.button-remove {
+    background-color: #dc3545;
+}
+
+.button-reset {
+    background-color: #ffc107; 
+    color: black; 
+    margin-top: 10px;
+}
+
+/* Search input */
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px; 
+}
+
+/* Style the Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    cursor: pointer;
+    background-color: #f8f9fa;
+}
+
+.sort-asc::after {
+    content: ' ▲';
+}
+
+.sort-desc::after {
+    content: ' ▼';
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Pagination Next/Previous Buttons */
+.pagination button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin: 5px;
+    background-color: #0056b3;
+}
+
+.pagination button:disabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 10px;
+}
+
+/* Styling for Chosen Team (From Adding Players) */
+.team-summary {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.team-summary ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.team-summary li {
+    margin: 5px 0;
+}
