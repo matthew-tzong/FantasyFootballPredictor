@@ -1,6 +1,6 @@
 # FantasyFootballPredictor <br></br>
 ## Overview <br></br>
-The Fantasy Football Stat Predictor is an application designed to scrape game logs for over 1000 games, manipulate the data, and predict player performance in fantasy football. using ML algorithms. This is accomplished through a Frontend React App, Backend Flask application, and a PostgreSQL database. This model uses ML algorithms and has a 90.9% overall accuracy score using Mean Squared Error, R^2 Score, and Mean Absolute Error.
+The Fantasy Football Stat Predictor is an application designed to scrape game logs for over 1000 games, manipulate the data, and predict player performance in fantasy football using ML algorithms. This is accomplished through a Frontend React App, Backend Flask application, and a PostgreSQL database. This model uses ML algorithms and has a 90.9% overall accuracy score using Mean Squared Error, R^2 Score, and Mean Absolute Error.
 
 <img width="1112" alt="image" src="https://github.com/user-attachments/assets/08aad8af-1a0c-4ea4-9872-82c9d289f4f1">
 <img width="1091" alt="image" src="https://github.com/user-attachments/assets/8e2d34f4-d42f-428f-bde3-a9b3881da72c">
